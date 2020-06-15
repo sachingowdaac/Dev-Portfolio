@@ -5,19 +5,19 @@ import Education from '../education/education';
 import Skills from '../skills/skills';
 import ContactMe from '../contact-me/contact-me';
 import Internship from '../internship/internship';
-import Project from "../projects/projects"
+import Project from '../projects/projects';
 import './main-page.css';
 
 const MainPage = () => (
   <Container>
     <div className="main-page" style={{ marginBottom: '30px' }}>
       <p className="name">SACHINGOWDA A C</p>
-      <p className="role">Full Stack Web Developer</p>
+      <p className="role">Web Developer</p>
     </div>
     <AboutMe />
     <Education />
     <Internship />
-    <Project/>
+    <Project />
     <Skills />
     <ContactMe />
   </Container>
